@@ -23,7 +23,7 @@ module Kid
       # axon type means identifies whether it is an edge neuron or a connection
       # neuron. A connection neuron is connected to other neurons on both axon
       # and dendrites, whereas an edge neuron is connected only at the dendrites.
-      attr_accessor :nuclius, :axon, :dendrites, :type
+      attr_accessor :data, :axon, :dendrites, :type
 
       def initialize(data, axon=nil, type = :connection)
         @data = data
