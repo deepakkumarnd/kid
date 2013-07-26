@@ -1,4 +1,3 @@
-# -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
 require 'kid/version'
 
@@ -7,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.version              = Kid::VERSION
   gem.authors              = ["Deepak"]
   gem.email                = ["deepakkumarnd@gmail.com"]
-  gem.homepage             = ""
+  gem.homepage             = "https://github.com/deepakkumarnd/kid"
   gem.summary              = %q{ A machine learning based nlp program }
   gem.description          = %q{ A machine learning based nlp program }
   gem.files                = `git ls-files`.split("\n")
